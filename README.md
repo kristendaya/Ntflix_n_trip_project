@@ -14,9 +14,19 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 다만 피치못할 사정이 생겨버린다면 모든 좋은 요소들이 반전되면서 업무량에 증가와 단편적인 아이디어로 고통받게된다..
 
 ## 사용법
+0. clone
+```
+git clone http://github.com/seonghtun/N-T_project.git
+```
+
+1. http-server (graph image src를 위해 필요하다)
 ```
 npm install http-server -g 
+cd N-T_project/graph
+http-server -p 8080 #[원하는 포트]
 ```
+
+2. json-server (openapi 대용 json-server를 띄웠기 때문에 필요하다)
 
 <br>
 <p align="center">
