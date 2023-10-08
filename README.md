@@ -14,20 +14,42 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 다만 피치못할 사정이 생겨버린다면 모든 좋은 요소들이 반전되면서 업무량에 증가와 단편적인 아이디어로 고통받게된다..
 
 ## 사용법
-0. clone
+0. clone 
 ```
 git clone http://github.com/seonghtun/N-T_project.git
+```
+0-1 secret.json 생성 
+- N-T_project folder 안에 secret.json 파일을 생성하여 자신의 컴퓨터에 mysql 과 MongoDB 호스트 설정과 user, password 설정을해주어야한다. 저는 mysql 만 userid와 password 설정해놨기에 Mongodb는 userid를 따로 추가하지 않았습니다.
+```
+{
+    "Mongo_Host": "mongodb://localhost:27017/",
+    "Netflix_JSON_Host": "http://localhost:4000",
+    "Mysql_Hostname": "localhost",
+    "Mysql_Port": "3306",
+    "Mysql_Username": [mysql id칸],
+    "Mysql_Password": [mysql password칸],
+    "Mysql_DBname": [ DBname 칸]
+}
 ```
 
 1. http-server (graph image src를 위해 필요하다)
 ```
 npm install http-server -g 
 cd N-T_project/graph
-http-server -p 8080 #[원하는 포트]
+http-server -p 8080
 ```
 
 2. json-server (openapi 대용 json-server를 띄웠기 때문에 필요하다)
+```
+npm install json-server -g
+json-server --watch netflix.json --port 4000
+```
 
+3. front server start
+```
+cd N-T_projcect
+```
+4. 
 <br>
 <p align="center">
 <img src="https://github.com/seonghtun/N-T_project/assets/74886046/4f53e9a1-be74-4997-ab08-3c8f62beb627" />
