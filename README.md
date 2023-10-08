@@ -35,7 +35,8 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 ### 기능 동작
 |                홈 화면             |                Netflix contents              |
 | :----------------------------------: | :----------------------------------: | 
-| <img src=''> | <img src='' width='400px' height='300px'>  |
+| ![image](https://github.com/seonghtun/N-T_project/assets/74886046/aa609b19-1883-46e1-b3b3-1374eb2aaa38)
+ | <img src='' width='400px' height='300px'>  |
 
 
 
