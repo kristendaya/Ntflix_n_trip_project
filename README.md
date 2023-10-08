@@ -15,7 +15,7 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 
 <br>
 <p align="center">
-<img width="400px" src="https://github.com/LeeMyungdeok/forestcamp/assets/115915362/1b353e95-3818-4f7b-a253-0f9b0679acc8">
+ ![Netflix Dynamic (1)](https://github.com/seonghtun/N-T_project/assets/74886046/4f53e9a1-be74-4997-ab08-3c8f62beb627)
 <br>
 <img src= "https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 <img src= "https://img.shields.io/badge/nodedotjs-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
