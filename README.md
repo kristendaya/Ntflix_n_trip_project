@@ -74,7 +74,7 @@ cd N-T_projcect
 | :----------------------------------: | 
 | <img src="https://github.com/seonghtun/N-T_project/assets/74886046/aa609b19-1883-46e1-b3b3-1374eb2aaa38" />|
 |                Netflix contents              |
-|:----------------------------------: | 
+| :----------------------------------: | 
 | 
 
 https://github.com/seonghtun/N-T_project/assets/74886046/df00a957-750b-4bea-9f7f-583d3176239b
