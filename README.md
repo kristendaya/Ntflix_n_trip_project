@@ -32,13 +32,6 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 ### development environment
 
 
-
-## back-end 아키텍쳐 설계
-
-<p align="center">
- <img src='' width='400px' height='400px'>
-</p>
-
 ### 기능 동작
 |                홈 화면             |                Netflix contents              |
 | :----------------------------------: | :----------------------------------: | 
