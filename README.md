@@ -13,6 +13,11 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 내가 하나를 할동안 두개 완성되는 마법이었다. 사실 혼자하는것에 대한 선호도가 더 컸었는데 바뀌게되었다.
 다만 피치못할 사정이 생겨버린다면 모든 좋은 요소들이 반전되면서 업무량에 증가와 단편적인 아이디어로 고통받게된다..
 
+## 사용법
+```
+npm install http-server -g 
+```
+
 <br>
 <p align="center">
 <img src="https://github.com/seonghtun/N-T_project/assets/74886046/4f53e9a1-be74-4997-ab08-3c8f62beb627" />
@@ -33,9 +38,12 @@ OPENAPI가 무엇인지 모르고 지내다가 이 프로젝트를 하면서 의
 
 
 ### 기능 동작
-|                홈 화면             |                Netflix contents              |
-| :----------------------------------: | :----------------------------------: | 
-| <img src="https://github.com/seonghtun/N-T_project/assets/74886046/aa609b19-1883-46e1-b3b3-1374eb2aaa38" />
+|                홈 화면             |
+| :----------------------------------: | 
+| <img src="https://github.com/seonghtun/N-T_project/assets/74886046/aa609b19-1883-46e1-b3b3-1374eb2aaa38" />|
+|                Netflix contents              |
+|:----------------------------------: | 
+
  | <img src='' width='400px' height='300px'>  |
 
 
