@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="modal.js"></script>
+    <script>
+        function makeTable(data) {
+            const tableDiv = document.getElementById("tableDiv")
+            const keys = Object.keys(data)
+            console.log(keys, "여기 떠야되는데")
+
+            let imsihtml = `<table><thead><tr>`
+            for (let i = 0; i < (keys.length - 1); i++) {
+                imsihtml += `<th>${keys[i]}</th>`
+            }
+            imsihtml += "</tr></thead><tbody>";
+            for (let i = 0; i < data[keys[0]].length; i++) {
+                imsihtml += '<tr>';
+                for (let j = 0; j < (keys.length - 1); j++) {
+                    imsihtml += `<td>${data[keys[j]][i]}</td>`;
+                }
+                imsihtml += '</tr>';
+            }
+            imsihtml += "</tbody></table>";
+            return imsihtml;
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fab fa-accusoft"></i>
+            <a href="/">NETFLIX & TRIP</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="http://192.168.1.10:8000/">tourist</a></li>
+            <li><a href="/netflix">netflix</a></li>
+            <li><a href="/justone">JustOne</a></li>
+        </ul>
+
+        <ul class="navbar__icons">
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
+        </ul>
+
+        <a href="#" class="navbar__toogleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+
+
+
+    <div id="section1">
+        <div class="menu">
+            <h3 class="netflexTitle">Netflix</h3>
+            <div>
+                <div>
+                    <div>
+                        <input type="radio" id="total" name="standard" value="total" onchange="changeStandard(this)"
+                            checked>
+                        <label for="total">전 체</label>
+                        <input type="radio" id="month" name="standard" value="month" onchange="changeStandard(this)">
+                        <label for="month">월 간</label>
+                        <div id="period-select">
+                            <br>
+                        </div>
+                    </div>
+                    <select id="title">
+                        <option value="0">오징어 게임</option>
+                        <option value="1">지금 우리 학교는</option>
+                        <option value="2">갯마을 차차차</option>
+                        <option value="3">더 글로리</option>
+                    </select>
+                    <input type="button" class="button" value="조회" onclick="find()" />
+                </div>
+            </div>
+        </div>
+        <div class="displayDiv">
+            <div id="errorDiv">
+                <div id="button"></div>
+                <div>
+                    <p id="error"></p>
+                    <div class="grid-image">
+                        <img src="" class="graphs" id="rankImg">
+                        <img src="" class="graphs" id="oneImg">
+                    </div>
+                </div>
+            </div>
+            <div id="tableDiv">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

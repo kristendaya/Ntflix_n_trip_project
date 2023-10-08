@@ -12,10 +12,10 @@ import pandas as pd
 # df.to_json('/allnew/node/jsonserver/netflix.json', orient='records')
 BASE_DIR = 'data/'
 csv_names = ['all-weeks-countries.tsv' ,'all-weeks-global.tsv', 'most-popular.tsv']
-json_name = '/allnew/node/jsonserver/netflix.json'
+json_name = 'netflix.json'
 keys = ['countries','global','most-popular']
 
-def tsv_to_json(csv_names,json_name,keys):
+def tsv_to_json(csv_names=csv_names,json_name=json_name,keys=keys):
     json_data = {}
 
     for i in range(len(csv_names)):
@@ -28,8 +28,10 @@ def tsv_to_json(csv_names,json_name,keys):
         json.dump(json_data, json_file)
     return json_data
 
+tsv_to_json()
+
 xls_names = ['국적별 입국_months.xls' ,'국적별 입국_years.xls']
-json_name = '/allnew/node/jsonserver/tourist.json'
+json_name = 'tourist.json'
 keys = ['months','years']
 json_data = {}
 
