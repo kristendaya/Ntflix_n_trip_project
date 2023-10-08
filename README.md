@@ -70,13 +70,12 @@ cd N-T_projcect
 
 
 ### 기능 동작
-|                홈 화면             |                 Netflix contents              |
-| :----------------------------------: | :----------------------------------: | 
+|                홈 화면             | 
+| :----------------------------------: |
 | <img src="https://github.com/seonghtun/N-T_project/assets/74886046/aa609b19-1883-46e1-b3b3-1374eb2aaa38" />| 
 
 https://github.com/seonghtun/N-T_project/assets/74886046/0888e74b-5e88-46d1-a0cc-53b228b4f285
 
- |
 
 
 
