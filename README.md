@@ -93,7 +93,11 @@ python netflix_backend_server.py
 |                홈 화면             | 
 | :----------------------------------: | 
 | ![image](https://github.com/seonghtun/N-T_project/assets/74886046/fc82b6fa-fd29-4ead-83a4-5014d57dd398) |
-https://github.com/seonghtun/N-T_project/assets/74886046/dc57f684-a89d-4925-baae-4dab315e62b6
+
+
+
+https://github.com/seonghtun/N-T_project/assets/74886046/9a1413bc-2d24-43bd-890b-0815bbe133ba
+
 
 
 
