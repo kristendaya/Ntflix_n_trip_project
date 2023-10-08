@@ -45,11 +45,17 @@ npm install json-server -g
 json-server --watch netflix.json --port 4000
 ```
 
-3. front server start
+3. front server start (package.json 의 dependency? 모듈들을 설치하고 작성된 script로 start 한다.) port 는 80번 이다.
 ```
-cd N-T_projcect
+cd N-T_projcect/front
+npm install && npm start
 ```
-4. 
+4. backend server start (port : 8000 )
+```
+cd N-T_project/server
+pip install -r requirements.txt
+python netflix_backend_server.py
+```
 <br>
 <p align="center">
 <img src="https://github.com/seonghtun/N-T_project/assets/74886046/4f53e9a1-be74-4997-ab08-3c8f62beb627" />
